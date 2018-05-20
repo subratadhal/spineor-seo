@@ -62,9 +62,9 @@ module.exports = {
                 test: /\.css$/
             },
             {
-                loader: 'json-loader',
-                test: /\.json$/
-            }
+              test: /\.json$/,
+              loader: 'json-loader'
+            },
         ],
     },
     

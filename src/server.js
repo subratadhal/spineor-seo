@@ -73,7 +73,7 @@ function htmlTemplate( reactDom, reduxState, helmetData ) {
             <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
             <link href="/css/styles.css" rel="stylesheet" type="text/css" />
             <link href="/css/horizontal.css" rel="stylesheet" type="text/css" />
-            <link href="node_modules/video-react/dist/video-react.css" rel="stylesheet" type="text/css" />
+            
             <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet"/>
             <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
         </head>
