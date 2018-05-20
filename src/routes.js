@@ -1,7 +1,7 @@
 import Home from "./components/Home";
 //import About from "./components/About";
 //import AboutDetails from "./components/Aboutdetails";
-//import Contact from "./components/Contact";
+import Contact from "./components/Contact";
 
 import About            from './components/whoweare/About';
 import Careers          from './components/whoweare/Careers';
@@ -25,7 +25,7 @@ export default [
     { path: "/", component: Home, exact: true, },
     //{ path: "/about", component: About, exact: true, },
     //{ path: "/about/:id", component: AboutDetails, exact: true, },
-    //{ path: "/contact", component: Contact, exact: true, },
+    { path: "/contact", component: Contact, exact: true, },
     { path: "/who-we-are/about", component: About, exact: true, },
     { path: "/who-we-are/careers", component: Careers, exact: true, },
     { path: "/who-we-are/our-process", component: OurProcess, exact: true, },

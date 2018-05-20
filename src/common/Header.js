@@ -81,7 +81,7 @@ export default class Header extends React.Component {
 			            </li>
 			            <li><Link to="/case-studies" >CASE STUDIES</Link></li>
 			            <li><Link to="/blog">BLOG</Link></li>
-			            <li><Link to="/contact-us">Contact Us</Link></li>
+			            <li><Link to="/contact">Contact Us</Link></li>
 		       		</ul>
 		       		<button type="button" className="hvr-sweep-to-right">Free Quote</button>
 		        </div>

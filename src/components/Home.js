@@ -1,5 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
+import { Link } from "react-router-dom";
 
 import $ from "jquery";
 
@@ -14,7 +15,7 @@ import { Tabs, TabList, Tab, TabPanel } from 'react-tabs';
 
 const videoSources = {
     BigData: 'http://media.w3.org/2010/05/sintel/trailer.mp4',
-    BigDataPoster: 'images/Untitled-1.png', 
+    BigDataPoster: 'images/Untitled-1.png',
     BigDataText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     DataAnalysis: 'http://media.w3.org/2010/05/bunny/trailer.mp4',
     DataAnalysisPoster: 'images/Untitled-1.png',
@@ -165,10 +166,10 @@ export default class Home extends React.Component {
                     <div className="container">
                         <div className="row">
                             <div className="agile-development">
-                                <h1>WHAT WE DO</h1>
+                                <h2 className="heading">WHAT WE DO</h2>
                             </div>
                             <div className="col-sm-4">
-                                <a href="what-we-do/dynamic-web-solutions" className="frame">
+                                <Link to="/what-we-do/dynamic-web-solutions" className="frame">
                                     <div className="group">
                                         <img src="images/Untitled-1.png"/>
                                     </div>
@@ -179,12 +180,12 @@ export default class Home extends React.Component {
                                         <p>At Spineor, we explore, learn and develop the latest trends in the website development. </p>
                                     </div>
                                     <div className="view-more">
-                                        <a className="frame1" href="#">VIEW MORE</a>
+                                        <span className="frame1">VIEW MORE</span>
                                     </div>
-                                </a>
+                                </Link>
                             </div>
                             <div className="col-sm-4">
-                                <a href="what-we-do/data-analytics" className="frame">
+                                <Link to="/what-we-do/data-analytics" className="frame">
                                     <div className="group">
                                         <img src="images/icon2.png"/>
                                     </div>
@@ -195,12 +196,12 @@ export default class Home extends React.Component {
                                         <p>We, understand, clean and enrich your massive data. </p>
                                     </div>
                                     <div className="view-more">
-                                        <a className="frame1" href="#">VIEW MORE</a>
+                                        <span className="frame1">VIEW MORE</span>
                                     </div>
-                                </a>
+                                </Link>
                             </div>
                             <div className="col-sm-4">
-                                <a href="what-we-do/devops-and-testing" className="frame">
+                                <Link to="/what-we-do/devops-and-testing" className="frame">
                                     <div className="group">
                                         <img src="images/icon3.png"/>
                                     </div>
@@ -211,9 +212,9 @@ export default class Home extends React.Component {
                                         <p>Our DevOps engineers and Quality analyst accelerate the release of applications into productions.</p>
                                     </div>
                                     <div className="view-more">
-                                        <a className="frame1" href="#">VIEW MORE</a>
+                                        <span className="frame1" >VIEW MORE</span>
                                     </div>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -225,7 +226,7 @@ export default class Home extends React.Component {
                     <div className="container">
                         <div className="row">
                             <div className="agile-development">
-                                <h1>AGILE DEVELOPMENT</h1>
+                                <h2 className="heading">AGILE DEVELOPMENT</h2>
                             </div>
                             <div className="col-sm-7 agile-wrapper">
                                 <div className="agile-development-image">
@@ -257,10 +258,10 @@ export default class Home extends React.Component {
                     <div className="container">
                         <div className="row">
                             <div className="what-we-can-do-for-you">
-                                <h1>WHAT WE CAN DO FOR YOU</h1>
+                                <h2 className="heading">WHAT WE CAN DO FOR YOU</h2>
                             </div>
                             <div className="col-sm-6 col-md-4 remove ">
-                                <a href="/service/website-development" className="Web-Development-heading">
+                                <Link to="/service/website-development" className="Web-Development-heading">
                                     <div className="Web-Development">
                                         <span><img src="images/webdev.png"/></span>
                                         <span>Web Development</span>
@@ -272,10 +273,10 @@ export default class Home extends React.Component {
                                         The team understands the demands of the project 
                                         may it be minor or major.</p>
                                     </div>
-                                </a>
+                                </Link>
                             </div>
                             <div className="col-sm-6 col-md-4 remove">
-                                <a href="/service/restfull-apis" className="Web-Development-heading">
+                                <Link to="/service/restfull-apis" className="Web-Development-heading">
                                     <div className="Web-Development">
                                         <span><img src="images/resful_api.png"/></span>
                                         <span>Restful APIs</span>
@@ -283,10 +284,10 @@ export default class Home extends React.Component {
                                     <div className="Our-developers-build-not">
                                         <p>We offer API integration and development services to suit the web and mobile application development requirements of the clients.</p>
                                     </div>
-                                </a>
+                                </Link>
                             </div>
                             <div className="col-sm-6 col-md-4 remove">
-                                <a href="/service/reactive-applications" className="Web-Development-heading">
+                                <Link to="/service/reactive-applications" className="Web-Development-heading">
                                     <div className="Web-Development">
                                         <span><img src="images/React.png"/></span>
                                         <span>Reactive Applications</span>
@@ -294,10 +295,10 @@ export default class Home extends React.Component {
                                     <div className="Our-developers-build-not">
                                         <p>We offer API integration and development services to suit the web and mobile application development requirements of the clients.</p>
                                     </div>
-                                </a>
+                                </Link>
                             </div>
                             <div className="col-sm-6 col-md-4 remove">
-                                <a href="/service/full-mean-stack-development" className="Web-Development-heading">
+                                <Link to="/service/full-mean-stack-development" className="Web-Development-heading">
                                     <div className="Web-Development">
                                         <span><img src="images/Mean.png"/></span>
                                         <span>Full/Mean stack development</span>
@@ -305,10 +306,10 @@ export default class Home extends React.Component {
                                     <div className="Our-developers-build-not">
                                         <p>We are working exceptionally well for integrating advanced online designing technologies like Angular JS/NodeJS/ExpressJS/REACT JS. We are well-versed with administrating databases like MongoDB/Cassandra/</p>
                                     </div>
-                                </a>
+                                </Link>
                             </div>
                             <div className="col-sm-6 col-md-4 remove">
-                                <a href="/service/third-party-integrations" className="Web-Development-heading">
+                                <Link to="/service/third-party-integrations" className="Web-Development-heading">
                                     <div className="Web-Development">
                                         <span><img src="images/Third_party.png"/></span>
                                         <span>Third Party Integrations</span>
@@ -316,10 +317,10 @@ export default class Home extends React.Component {
                                     <div className="Our-developers-build-not">
                                         <p>We offer seamless and tricky third party integrations – Twitter and Coveritlive. Our Product Managers are constantly on the look-out for new apps, technical advances and trends – judging their suitability for inclusion into Sunshine.</p>
                                     </div>
-                                </a>
+                                </Link>
                             </div>
                             <div className="col-sm-6 col-md-4 remove">
-                                <a href="/service/machine-learning" className="Web-Development-heading">
+                                <Link to="/service/machine-learning" className="Web-Development-heading">
                                     <div className="Web-Development">
                                         <span><img src="images/mACHINE.png"/></span>
                                         <span>Machine Learning</span>
@@ -327,7 +328,7 @@ export default class Home extends React.Component {
                                     <div className="Our-developers-build-not">
                                         <p>Our Data Scientists take the time to train the data into information, and information into insight. Our robust data analysis can increase your business productivity by turning raw data to better inform business decisions.</p>
                                     </div>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -337,7 +338,7 @@ export default class Home extends React.Component {
                     <div className="container">
                         <div className="row">
                             <div className="OUR-WORK">
-                                <h1>OUR WORK</h1>
+                                <h2 className="heading">OUR WORK</h2>
                             </div>
                             <Tabs selectedIndex={this.state.tabIndex} onSelect={tabIndex => this.setState({ tabIndex })}>
                                 <div className="col-sm-6">
@@ -351,10 +352,10 @@ export default class Home extends React.Component {
                                         <Tab>Healthcare</Tab>
                                     </TabList>
                                     <div className="view-project">
-                                        <a className="frame2" href="#">VIEW MORE <i className="fa fa-long-arrow-right"></i></a>
+                                        <Link className="frame2" to="/#">VIEW MORE <i className="fa fa-long-arrow-right"></i></Link>
                                     </div>
                                     <div className="see-all-project">
-                                        <a href="">SEE ALL PROJECT</a>
+                                        <Link to="/#">SEE ALL PROJECT</Link>
                                     </div>
                                 </div>
                                 <div className="col-sm-6">
@@ -393,7 +394,7 @@ export default class Home extends React.Component {
                     <div className="container">
                         <div className="row">
                             <div className="our-process">
-                                <h1>OUR PROCESS</h1>
+                                <h2 className="heading">OUR PROCESS</h2>
                             </div>
                             <div className="col-sm-4">
                                 <div className="our-process-image">
@@ -453,7 +454,7 @@ export default class Home extends React.Component {
                     <h4>Let’s Get Started</h4>
                     <p>We need to learn more about your idea so we can marry it with our technical knowledge and help you come up with a winning product strategy. Push the button to let us know the 
                     details, and our mobile experts will get back to you soon.</p>
-                    <a href="#" className="get-a-free">get a quote</a>
+                    <Link to="/#" className="get-a-free">get a quote</Link>
                 </div>
             </div>
         </div>
@@ -485,7 +486,7 @@ export default class Home extends React.Component {
                             </div>
                             <div className="form-group">
                                 
-                                <textarea className="form-control" rows="5" id="comment">Message</textarea>
+                                <textarea className="form-control" rows="5" id="comment" placeholder="Message"></textarea>
                             </div>
                             <button type="submit" className="btn submit-btn">SEnd message</button>
                         </form>

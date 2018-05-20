@@ -41667,7 +41667,7 @@ var Header = function (_React$Component) {
 									null,
 									react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
 										react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"],
-										{ to: "/contact-us" },
+										{ to: "/contact" },
 										"Contact Us"
 									)
 								)
@@ -42366,6 +42366,276 @@ var CaseStudies = function (_React$Component3) {
 
 /***/ }),
 
+/***/ "./components/Contact.js":
+/*!*******************************!*\
+  !*** ./components/Contact.js ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "../node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-helmet */ "../node_modules/react-helmet/lib/Helmet.js");
+/* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_helmet__WEBPACK_IMPORTED_MODULE_1__);
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+var Contact = function (_React$Component) {
+	_inherits(Contact, _React$Component);
+
+	function Contact(props) {
+		_classCallCheck(this, Contact);
+
+		return _possibleConstructorReturn(this, (Contact.__proto__ || Object.getPrototypeOf(Contact)).call(this, props));
+	}
+
+	_createClass(Contact, [{
+		key: "render",
+		value: function render() {
+
+			return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+				"div",
+				null,
+				react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+					react_helmet__WEBPACK_IMPORTED_MODULE_1___default.a,
+					null,
+					react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+						"title",
+						null,
+						"About"
+					),
+					react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", { name: "ROBOTS", CONTENT: "NOINDEX, NOFOLLOW" }),
+					react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", { name: "description", content: "About" })
+				),
+				react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+					"section",
+					{ className: "banner inner-banner banner-contact" },
+					react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", { src: "../../images/top_img_contact.png" }),
+					react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+						"div",
+						{ className: "about-head bnr-hd container" },
+						react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+							"h1",
+							null,
+							"Contact"
+						)
+					)
+				),
+				react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+					"section",
+					{ className: "contact-infopage" },
+					react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+						"div",
+						{ className: "container" },
+						react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+							"div",
+							{ className: "back-list" },
+							react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+								"ul",
+								{ className: "" },
+								react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+									"li",
+									null,
+									"Home"
+								),
+								react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+									"li",
+									null,
+									"Contact"
+								)
+							)
+						),
+						react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+							"div",
+							{ className: "get-in-section-contact" },
+							react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+								"div",
+								{ className: "get-in-touch" },
+								react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+									"h2",
+									{ className: "heading" },
+									"GET IN TOUCH"
+								)
+							),
+							react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+								"div",
+								{ className: "col-sm-6" },
+								react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+									"div",
+									{ className: "contact-infos" },
+									react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+										"span",
+										null,
+										"We want to hear from you!"
+									)
+								),
+								react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+									"form",
+									{ action: "" },
+									react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+										"div",
+										{ className: "form-group" },
+										react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", { type: "text", className: "form-control", id: "name", placeholder: "Name", name: "name" })
+									),
+									react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+										"div",
+										{ className: "form-group" },
+										react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", { type: "email", className: "form-control", id: "email", placeholder: "Enter email", name: "email" })
+									),
+									react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+										"div",
+										{ className: "form-group" },
+										react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", { type: "text", className: "form-control", id: "phone", placeholder: "Phone", name: "phone" })
+									),
+									react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+										"div",
+										{ className: "form-group" },
+										react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("textarea", { className: "form-control", rows: "5", id: "comment", placeholder: "message" })
+									),
+									react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+										"button",
+										{ type: "submit", className: "btn submit-btn" },
+										"SEnd message"
+									)
+								)
+							),
+							react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+								"div",
+								{ className: "col-sm-6" },
+								react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+									"div",
+									{ className: "contact-info" },
+									react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+										"span",
+										null,
+										"Contact Information"
+									),
+									react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+										"div",
+										{ className: "contact-info-list" },
+										react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+											"ul",
+											null,
+											react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+												"li",
+												null,
+												react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+													"div",
+													{ className: "location" },
+													react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+														"span",
+														{ id: "in-img" },
+														react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", { src: "../../images/Contact_big_icon1_blue.png" })
+													),
+													react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+														"p",
+														null,
+														react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+															"span",
+															null,
+															"Location:"
+														),
+														"E-261, IT TOWER, AirportRoad, Mohali (PB)"
+													)
+												)
+											),
+											react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+												"li",
+												null,
+												react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+													"div",
+													{ className: "location" },
+													react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+														"span",
+														{ id: "in-img" },
+														react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", { src: "../../images/Contact_big_icon3_blue.png" })
+													),
+													react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+														"p",
+														null,
+														react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+															"span",
+															null,
+															"Phone:"
+														),
+														"0172-5058146 ,       91-99150-21146"
+													)
+												)
+											),
+											react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+												"li",
+												null,
+												react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+													"div",
+													{ className: "location" },
+													react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+														"span",
+														{ id: "in-img" },
+														react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", { src: "../../images/Contact_big_icon2_blue.png" })
+													),
+													react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+														"p",
+														null,
+														react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+															"span",
+															null,
+															"Email:"
+														),
+														"info@spineor.com"
+													)
+												)
+											),
+											react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+												"li",
+												null,
+												react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+													"div",
+													{ className: "location" },
+													react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+														"span",
+														{ id: "in-img" },
+														react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", { src: "../../images/Contact_big_icon4_blue.png" })
+													),
+													react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+														"p",
+														null,
+														react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+															"span",
+															null,
+															"Skype:"
+														),
+														"Spineor-web-Services"
+													)
+												)
+											)
+										)
+									)
+								)
+							)
+						)
+					)
+				)
+			);
+		}
+	}]);
+
+	return Contact;
+}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (Contact);
+
+/***/ }),
+
 /***/ "./components/Home.js":
 /*!****************************!*\
   !*** ./components/Home.js ***!
@@ -42379,11 +42649,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-helmet */ "../node_modules/react-helmet/lib/Helmet.js");
 /* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_helmet__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! jquery */ "../node_modules/jquery/dist/jquery.js");
-/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_animated_slider__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-animated-slider */ "../node_modules/react-animated-slider/build/index.js");
-/* harmony import */ var react_animated_slider__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_animated_slider__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react_tabs__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-tabs */ "../node_modules/react-tabs/esm/index.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "../node_modules/react-router-dom/es/index.js");
+/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! jquery */ "../node_modules/jquery/dist/jquery.js");
+/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_animated_slider__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-animated-slider */ "../node_modules/react-animated-slider/build/index.js");
+/* harmony import */ var react_animated_slider__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_animated_slider__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react_tabs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-tabs */ "../node_modules/react-tabs/esm/index.js");
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -42391,6 +42662,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
 
 
 
@@ -42526,7 +42798,7 @@ var Home = function (_React$Component) {
                     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", { name: "description", content: "Home" })
                 ),
                 react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                    react_animated_slider__WEBPACK_IMPORTED_MODULE_3___default.a,
+                    react_animated_slider__WEBPACK_IMPORTED_MODULE_4___default.a,
                     { className: "slider-wrapper", onSlideChange: this.updateSliderVideo },
                     content.map(function (item, index) {
                         return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
@@ -42612,8 +42884,8 @@ var Home = function (_React$Component) {
                                 "div",
                                 { className: "agile-development" },
                                 react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                                    "h1",
-                                    null,
+                                    "h2",
+                                    { className: "heading" },
                                     "WHAT WE DO"
                                 )
                             ),
@@ -42621,8 +42893,8 @@ var Home = function (_React$Component) {
                                 "div",
                                 { className: "col-sm-4" },
                                 react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                                    "a",
-                                    { href: "what-we-do/dynamic-web-solutions", className: "frame" },
+                                    react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"],
+                                    { to: "/what-we-do/dynamic-web-solutions", className: "frame" },
                                     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
                                         "div",
                                         { className: "group" },
@@ -42650,8 +42922,8 @@ var Home = function (_React$Component) {
                                         "div",
                                         { className: "view-more" },
                                         react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                                            "a",
-                                            { className: "frame1", href: "#" },
+                                            "span",
+                                            { className: "frame1" },
                                             "VIEW MORE"
                                         )
                                     )
@@ -42661,8 +42933,8 @@ var Home = function (_React$Component) {
                                 "div",
                                 { className: "col-sm-4" },
                                 react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                                    "a",
-                                    { href: "what-we-do/data-analytics", className: "frame" },
+                                    react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"],
+                                    { to: "/what-we-do/data-analytics", className: "frame" },
                                     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
                                         "div",
                                         { className: "group" },
@@ -42690,8 +42962,8 @@ var Home = function (_React$Component) {
                                         "div",
                                         { className: "view-more" },
                                         react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                                            "a",
-                                            { className: "frame1", href: "#" },
+                                            "span",
+                                            { className: "frame1" },
                                             "VIEW MORE"
                                         )
                                     )
@@ -42701,8 +42973,8 @@ var Home = function (_React$Component) {
                                 "div",
                                 { className: "col-sm-4" },
                                 react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                                    "a",
-                                    { href: "what-we-do/devops-and-testing", className: "frame" },
+                                    react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"],
+                                    { to: "/what-we-do/devops-and-testing", className: "frame" },
                                     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
                                         "div",
                                         { className: "group" },
@@ -42730,8 +43002,8 @@ var Home = function (_React$Component) {
                                         "div",
                                         { className: "view-more" },
                                         react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                                            "a",
-                                            { className: "frame1", href: "#" },
+                                            "span",
+                                            { className: "frame1" },
                                             "VIEW MORE"
                                         )
                                     )
@@ -42753,8 +43025,8 @@ var Home = function (_React$Component) {
                                 "div",
                                 { className: "agile-development" },
                                 react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                                    "h1",
-                                    null,
+                                    "h2",
+                                    { className: "heading" },
                                     "AGILE DEVELOPMENT"
                                 )
                             ),
@@ -42825,8 +43097,8 @@ var Home = function (_React$Component) {
                                 "div",
                                 { className: "what-we-can-do-for-you" },
                                 react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                                    "h1",
-                                    null,
+                                    "h2",
+                                    { className: "heading" },
                                     "WHAT WE CAN DO FOR YOU"
                                 )
                             ),
@@ -42834,8 +43106,8 @@ var Home = function (_React$Component) {
                                 "div",
                                 { className: "col-sm-6 col-md-4 remove " },
                                 react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                                    "a",
-                                    { href: "/service/website-development", className: "Web-Development-heading" },
+                                    react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"],
+                                    { to: "/service/website-development", className: "Web-Development-heading" },
                                     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
                                         "div",
                                         { className: "Web-Development" },
@@ -42865,8 +43137,8 @@ var Home = function (_React$Component) {
                                 "div",
                                 { className: "col-sm-6 col-md-4 remove" },
                                 react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                                    "a",
-                                    { href: "/service/restfull-apis", className: "Web-Development-heading" },
+                                    react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"],
+                                    { to: "/service/restfull-apis", className: "Web-Development-heading" },
                                     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
                                         "div",
                                         { className: "Web-Development" },
@@ -42896,8 +43168,8 @@ var Home = function (_React$Component) {
                                 "div",
                                 { className: "col-sm-6 col-md-4 remove" },
                                 react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                                    "a",
-                                    { href: "/service/reactive-applications", className: "Web-Development-heading" },
+                                    react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"],
+                                    { to: "/service/reactive-applications", className: "Web-Development-heading" },
                                     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
                                         "div",
                                         { className: "Web-Development" },
@@ -42927,8 +43199,8 @@ var Home = function (_React$Component) {
                                 "div",
                                 { className: "col-sm-6 col-md-4 remove" },
                                 react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                                    "a",
-                                    { href: "/service/full-mean-stack-development", className: "Web-Development-heading" },
+                                    react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"],
+                                    { to: "/service/full-mean-stack-development", className: "Web-Development-heading" },
                                     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
                                         "div",
                                         { className: "Web-Development" },
@@ -42958,8 +43230,8 @@ var Home = function (_React$Component) {
                                 "div",
                                 { className: "col-sm-6 col-md-4 remove" },
                                 react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                                    "a",
-                                    { href: "/service/third-party-integrations", className: "Web-Development-heading" },
+                                    react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"],
+                                    { to: "/service/third-party-integrations", className: "Web-Development-heading" },
                                     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
                                         "div",
                                         { className: "Web-Development" },
@@ -42989,8 +43261,8 @@ var Home = function (_React$Component) {
                                 "div",
                                 { className: "col-sm-6 col-md-4 remove" },
                                 react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                                    "a",
-                                    { href: "/service/machine-learning", className: "Web-Development-heading" },
+                                    react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"],
+                                    { to: "/service/machine-learning", className: "Web-Development-heading" },
                                     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
                                         "div",
                                         { className: "Web-Development" },
@@ -43032,13 +43304,13 @@ var Home = function (_React$Component) {
                                 "div",
                                 { className: "OUR-WORK" },
                                 react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                                    "h1",
-                                    null,
+                                    "h2",
+                                    { className: "heading" },
                                     "OUR WORK"
                                 )
                             ),
                             react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                                react_tabs__WEBPACK_IMPORTED_MODULE_4__["Tabs"],
+                                react_tabs__WEBPACK_IMPORTED_MODULE_5__["Tabs"],
                                 { selectedIndex: this.state.tabIndex, onSelect: function onSelect(tabIndex) {
                                         return _this2.setState({ tabIndex: tabIndex });
                                     } },
@@ -43055,25 +43327,25 @@ var Home = function (_React$Component) {
                                         )
                                     ),
                                     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                                        react_tabs__WEBPACK_IMPORTED_MODULE_4__["TabList"],
+                                        react_tabs__WEBPACK_IMPORTED_MODULE_5__["TabList"],
                                         null,
                                         react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                                            react_tabs__WEBPACK_IMPORTED_MODULE_4__["Tab"],
+                                            react_tabs__WEBPACK_IMPORTED_MODULE_5__["Tab"],
                                             null,
                                             "Hospitality"
                                         ),
                                         react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                                            react_tabs__WEBPACK_IMPORTED_MODULE_4__["Tab"],
+                                            react_tabs__WEBPACK_IMPORTED_MODULE_5__["Tab"],
                                             null,
                                             "Finance"
                                         ),
                                         react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                                            react_tabs__WEBPACK_IMPORTED_MODULE_4__["Tab"],
+                                            react_tabs__WEBPACK_IMPORTED_MODULE_5__["Tab"],
                                             null,
                                             "Retail"
                                         ),
                                         react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                                            react_tabs__WEBPACK_IMPORTED_MODULE_4__["Tab"],
+                                            react_tabs__WEBPACK_IMPORTED_MODULE_5__["Tab"],
                                             null,
                                             "Healthcare"
                                         )
@@ -43082,8 +43354,8 @@ var Home = function (_React$Component) {
                                         "div",
                                         { className: "view-project" },
                                         react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                                            "a",
-                                            { className: "frame2", href: "#" },
+                                            react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"],
+                                            { className: "frame2", to: "/#" },
                                             "VIEW MORE ",
                                             react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", { className: "fa fa-long-arrow-right" })
                                         )
@@ -43092,8 +43364,8 @@ var Home = function (_React$Component) {
                                         "div",
                                         { className: "see-all-project" },
                                         react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                                            "a",
-                                            { href: "" },
+                                            react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"],
+                                            { to: "/#" },
                                             "SEE ALL PROJECT"
                                         )
                                     )
@@ -43102,7 +43374,7 @@ var Home = function (_React$Component) {
                                     "div",
                                     { className: "col-sm-6" },
                                     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                                        react_tabs__WEBPACK_IMPORTED_MODULE_4__["TabPanel"],
+                                        react_tabs__WEBPACK_IMPORTED_MODULE_5__["TabPanel"],
                                         null,
                                         react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
                                             "div",
@@ -43116,7 +43388,7 @@ var Home = function (_React$Component) {
                                         )
                                     ),
                                     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                                        react_tabs__WEBPACK_IMPORTED_MODULE_4__["TabPanel"],
+                                        react_tabs__WEBPACK_IMPORTED_MODULE_5__["TabPanel"],
                                         null,
                                         react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
                                             "div",
@@ -43130,7 +43402,7 @@ var Home = function (_React$Component) {
                                         )
                                     ),
                                     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                                        react_tabs__WEBPACK_IMPORTED_MODULE_4__["TabPanel"],
+                                        react_tabs__WEBPACK_IMPORTED_MODULE_5__["TabPanel"],
                                         null,
                                         react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
                                             "div",
@@ -43144,7 +43416,7 @@ var Home = function (_React$Component) {
                                         )
                                     ),
                                     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                                        react_tabs__WEBPACK_IMPORTED_MODULE_4__["TabPanel"],
+                                        react_tabs__WEBPACK_IMPORTED_MODULE_5__["TabPanel"],
                                         null,
                                         react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
                                             "div",
@@ -43175,8 +43447,8 @@ var Home = function (_React$Component) {
                                 "div",
                                 { className: "our-process" },
                                 react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                                    "h1",
-                                    null,
+                                    "h2",
+                                    { className: "heading" },
                                     "OUR PROCESS"
                                 )
                             ),
@@ -43312,8 +43584,8 @@ var Home = function (_React$Component) {
                                     "We need to learn more about your idea so we can marry it with our technical knowledge and help you come up with a winning product strategy. Push the button to let us know the details, and our mobile experts will get back to you soon."
                                 ),
                                 react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                                    "a",
-                                    { href: "#", className: "get-a-free" },
+                                    react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"],
+                                    { to: "/#", className: "get-a-free" },
                                     "get a quote"
                                 )
                             )
@@ -43371,11 +43643,7 @@ var Home = function (_React$Component) {
                                     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
                                         "div",
                                         { className: "form-group" },
-                                        react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-                                            "textarea",
-                                            { className: "form-control", rows: "5", id: "comment" },
-                                            "Message"
-                                        )
+                                        react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("textarea", { className: "form-control", rows: "5", id: "comment", placeholder: "Message" })
                                     ),
                                     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
                                         "button",
@@ -47017,24 +47285,25 @@ var OurProcess = function (_React$Component) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Home__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/Home */ "./components/Home.js");
-/* harmony import */ var _components_whoweare_About__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/whoweare/About */ "./components/whoweare/About.js");
-/* harmony import */ var _components_whoweare_Careers__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/whoweare/Careers */ "./components/whoweare/Careers.js");
-/* harmony import */ var _components_whoweare_OurProcess__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/whoweare/OurProcess */ "./components/whoweare/OurProcess.js");
-/* harmony import */ var _components_services_WebsiteDevelopment__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/services/WebsiteDevelopment */ "./components/services/WebsiteDevelopment.js");
-/* harmony import */ var _components_services_RestfullApis__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/services/RestfullApis */ "./components/services/RestfullApis.js");
-/* harmony import */ var _components_services_ReactiveApplications__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/services/ReactiveApplications */ "./components/services/ReactiveApplications.js");
-/* harmony import */ var _components_services_FullMeanStackDevelopment__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/services/FullMeanStackDevelopment */ "./components/services/FullMeanStackDevelopment.js");
-/* harmony import */ var _components_services_ThirdPartyIntegrations__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/services/ThirdPartyIntegrations */ "./components/services/ThirdPartyIntegrations.js");
-/* harmony import */ var _components_services_MachineLearning__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/services/MachineLearning */ "./components/services/MachineLearning.js");
-/* harmony import */ var _components_whatwedo_DataAnalytics__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/whatwedo/DataAnalytics */ "./components/whatwedo/DataAnalytics.js");
-/* harmony import */ var _components_whatwedo_DevopsAndTesting__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/whatwedo/DevopsAndTesting */ "./components/whatwedo/DevopsAndTesting.js");
-/* harmony import */ var _components_whatwedo_DynamicWebSolutions__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/whatwedo/DynamicWebSolutions */ "./components/whatwedo/DynamicWebSolutions.js");
-/* harmony import */ var _components_CaseStudies__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/CaseStudies */ "./components/CaseStudies.js");
-/* harmony import */ var _components_CaseDetails__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/CaseDetails */ "./components/CaseDetails.js");
+/* harmony import */ var _components_Contact__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/Contact */ "./components/Contact.js");
+/* harmony import */ var _components_whoweare_About__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/whoweare/About */ "./components/whoweare/About.js");
+/* harmony import */ var _components_whoweare_Careers__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/whoweare/Careers */ "./components/whoweare/Careers.js");
+/* harmony import */ var _components_whoweare_OurProcess__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/whoweare/OurProcess */ "./components/whoweare/OurProcess.js");
+/* harmony import */ var _components_services_WebsiteDevelopment__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/services/WebsiteDevelopment */ "./components/services/WebsiteDevelopment.js");
+/* harmony import */ var _components_services_RestfullApis__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/services/RestfullApis */ "./components/services/RestfullApis.js");
+/* harmony import */ var _components_services_ReactiveApplications__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/services/ReactiveApplications */ "./components/services/ReactiveApplications.js");
+/* harmony import */ var _components_services_FullMeanStackDevelopment__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/services/FullMeanStackDevelopment */ "./components/services/FullMeanStackDevelopment.js");
+/* harmony import */ var _components_services_ThirdPartyIntegrations__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/services/ThirdPartyIntegrations */ "./components/services/ThirdPartyIntegrations.js");
+/* harmony import */ var _components_services_MachineLearning__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/services/MachineLearning */ "./components/services/MachineLearning.js");
+/* harmony import */ var _components_whatwedo_DataAnalytics__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/whatwedo/DataAnalytics */ "./components/whatwedo/DataAnalytics.js");
+/* harmony import */ var _components_whatwedo_DevopsAndTesting__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/whatwedo/DevopsAndTesting */ "./components/whatwedo/DevopsAndTesting.js");
+/* harmony import */ var _components_whatwedo_DynamicWebSolutions__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/whatwedo/DynamicWebSolutions */ "./components/whatwedo/DynamicWebSolutions.js");
+/* harmony import */ var _components_CaseStudies__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/CaseStudies */ "./components/CaseStudies.js");
+/* harmony import */ var _components_CaseDetails__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/CaseDetails */ "./components/CaseDetails.js");
 
 //import About from "./components/About";
 //import AboutDetails from "./components/Aboutdetails";
-//import Contact from "./components/Contact";
+
 
 
 
@@ -47057,8 +47326,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ([{ path: "/", component: _components_Home__WEBPACK_IMPORTED_MODULE_0__["default"], exact: true },
 //{ path: "/about", component: About, exact: true, },
 //{ path: "/about/:id", component: AboutDetails, exact: true, },
-//{ path: "/contact", component: Contact, exact: true, },
-{ path: "/who-we-are/about", component: _components_whoweare_About__WEBPACK_IMPORTED_MODULE_1__["default"], exact: true }, { path: "/who-we-are/careers", component: _components_whoweare_Careers__WEBPACK_IMPORTED_MODULE_2__["default"], exact: true }, { path: "/who-we-are/our-process", component: _components_whoweare_OurProcess__WEBPACK_IMPORTED_MODULE_3__["default"], exact: true }, { path: "/service/website-development", component: _components_services_WebsiteDevelopment__WEBPACK_IMPORTED_MODULE_4__["default"], exact: true }, { path: "/service/restfull-apis", component: _components_services_RestfullApis__WEBPACK_IMPORTED_MODULE_5__["default"], exact: true }, { path: "/service/reactive-applications", component: _components_services_ReactiveApplications__WEBPACK_IMPORTED_MODULE_6__["default"], exact: true }, { path: "/service/full-mean-stack-development", component: _components_services_FullMeanStackDevelopment__WEBPACK_IMPORTED_MODULE_7__["default"], exact: true }, { path: "/service/third-party-integrations", component: _components_services_ThirdPartyIntegrations__WEBPACK_IMPORTED_MODULE_8__["default"], exact: true }, { path: "/service/machine-learning", component: _components_services_MachineLearning__WEBPACK_IMPORTED_MODULE_9__["default"], exact: true }, { path: "/what-we-do/data-analytics", component: _components_whatwedo_DataAnalytics__WEBPACK_IMPORTED_MODULE_10__["default"], exact: true }, { path: "/what-we-do/devops-and-testing", component: _components_whatwedo_DevopsAndTesting__WEBPACK_IMPORTED_MODULE_11__["default"], exact: true }, { path: "/what-we-do/dynamic-web-solutions", component: _components_whatwedo_DynamicWebSolutions__WEBPACK_IMPORTED_MODULE_12__["default"], exact: true }, { path: "/case-studies", component: _components_CaseStudies__WEBPACK_IMPORTED_MODULE_13__["default"], exact: true }, { path: "/case-studies/:title", component: _components_CaseDetails__WEBPACK_IMPORTED_MODULE_14__["default"], exact: true }]);
+{ path: "/contact", component: _components_Contact__WEBPACK_IMPORTED_MODULE_1__["default"], exact: true }, { path: "/who-we-are/about", component: _components_whoweare_About__WEBPACK_IMPORTED_MODULE_2__["default"], exact: true }, { path: "/who-we-are/careers", component: _components_whoweare_Careers__WEBPACK_IMPORTED_MODULE_3__["default"], exact: true }, { path: "/who-we-are/our-process", component: _components_whoweare_OurProcess__WEBPACK_IMPORTED_MODULE_4__["default"], exact: true }, { path: "/service/website-development", component: _components_services_WebsiteDevelopment__WEBPACK_IMPORTED_MODULE_5__["default"], exact: true }, { path: "/service/restfull-apis", component: _components_services_RestfullApis__WEBPACK_IMPORTED_MODULE_6__["default"], exact: true }, { path: "/service/reactive-applications", component: _components_services_ReactiveApplications__WEBPACK_IMPORTED_MODULE_7__["default"], exact: true }, { path: "/service/full-mean-stack-development", component: _components_services_FullMeanStackDevelopment__WEBPACK_IMPORTED_MODULE_8__["default"], exact: true }, { path: "/service/third-party-integrations", component: _components_services_ThirdPartyIntegrations__WEBPACK_IMPORTED_MODULE_9__["default"], exact: true }, { path: "/service/machine-learning", component: _components_services_MachineLearning__WEBPACK_IMPORTED_MODULE_10__["default"], exact: true }, { path: "/what-we-do/data-analytics", component: _components_whatwedo_DataAnalytics__WEBPACK_IMPORTED_MODULE_11__["default"], exact: true }, { path: "/what-we-do/devops-and-testing", component: _components_whatwedo_DevopsAndTesting__WEBPACK_IMPORTED_MODULE_12__["default"], exact: true }, { path: "/what-we-do/dynamic-web-solutions", component: _components_whatwedo_DynamicWebSolutions__WEBPACK_IMPORTED_MODULE_13__["default"], exact: true }, { path: "/case-studies", component: _components_CaseStudies__WEBPACK_IMPORTED_MODULE_14__["default"], exact: true }, { path: "/case-studies/:title", component: _components_CaseDetails__WEBPACK_IMPORTED_MODULE_15__["default"], exact: true }]);
 
 /***/ }),
 
