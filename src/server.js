@@ -18,14 +18,16 @@ app.get( "/*", ( req, res ) => {
     const context = { };
     const store = createStore( );
 
+
+
     store.dispatch( initializeSession( ) );
 
     const dataRequirements =
         routes
-            .filter( route => matchPath( req.url, route ) ) // filter matching paths
-            .map( route => route.component ) // map to components
-            .filter( comp => comp.serverFetch ) // check if components have data requirement
-            .map( comp => store.dispatch( comp.serverFetch( ) ) ); // dispatch data requirement
+            .filter( route => matchPath( req.url, route ) )         // filter matching paths
+            .map( route => route.component )                        // map to components
+            .filter( comp => comp.serverFetch )                     // check if components have data requirement
+            .map( comp => store.dispatch( comp.serverFetch( ) ) );  // dispatch data requirement
 
     Promise.all( dataRequirements ).then( ( ) => {
         const jsx = (
@@ -39,7 +41,17 @@ app.get( "/*", ( req, res ) => {
         const reduxState = store.getState( );
         const helmetData = Helmet.renderStatic( );
 
-        res.writeHead( 200, { "Content-Type": "text/html" } );
+        const mimeTypes = {
+              "html": "text/html",
+              "mp3":"audio/mpeg",
+              "mp4":"video/mp4",
+              "jpeg": "image/jpeg",
+              "jpg": "image/jpeg",
+              "png": "image/png",
+              "js": "text/javascript",
+              "css": "text/css"};
+
+        res.writeHead( 200, { "Content-Type": mimeTypes } );
         res.end( htmlTemplate( reactDom, reduxState, helmetData ) );
     } );
 } );
@@ -57,6 +69,13 @@ function htmlTemplate( reactDom, reduxState, helmetData ) {
             ${ helmetData.title.toString( ) }
             ${ helmetData.meta.toString( ) }
             <title>React SSR</title>
+            <link rel="icon" href="/images/favicon.ico" />
+            <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+            <link href="/css/styles.css" rel="stylesheet" type="text/css" />
+            <link href="/css/horizontal.css" rel="stylesheet" type="text/css" />
+            <link href="node_modules/video-react/dist/video-react.css" rel="stylesheet" type="text/css" />
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet"/>
+            <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
         </head>
         
         <body>
