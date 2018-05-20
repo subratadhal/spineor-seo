@@ -44,7 +44,11 @@ app.get( "/*", ( req, res ) => {
     } );
 } );
 
-app.listen( 2048 );
+//app.listen( 2048 );
+
+app.listen(process.env.PORT || 3000, function(){
+  console.log('listening on');
+});
 
 function htmlTemplate( reactDom, reduxState, helmetData ) {
     return `
