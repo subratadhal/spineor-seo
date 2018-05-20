@@ -8,6 +8,7 @@ export default class AboutDetails extends React.Component {
     	<div>
     		<Helmet>
             <title>AboutDetails</title>
+            <meta name="ROBOTS" CONTENT="NOINDEX, NOFOLLOW" />
             <meta name="description" content="About AboutDetails" />
         </Helmet>
 		    <h2> About Details </h2>

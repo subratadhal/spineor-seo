@@ -12,10 +12,8 @@ class Layout extends React.Component {
     }
 
     render() {
-        console.log('Layout');
         return (
             <div>
-                <h1>{ this.state.title }</h1>
                 <Header />
                 <Switch>
                     { routes.map( route => <Route key={ route.path } { ...route } /> ) }

@@ -1,6 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import { fetchData } from "../store";
+import Helmet from "react-helmet";
 
 export default class Home extends React.Component {
     componentDidMount( ) {
@@ -10,6 +11,11 @@ export default class Home extends React.Component {
     render( ) {
         return (
             <div>
+                <Helmet>
+		            <title>Home</title>
+		            <meta name="ROBOTS" CONTENT="NOINDEX, NOFOLLOW" />
+		            <meta name="description" content="Home" />
+		        </Helmet>
                 <h2>F1 2018 Season Calendar</h2>
             </div>
         );
