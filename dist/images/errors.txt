@@ -1,0 +1,2 @@
+[5/8/2018, 3:38:13 PM] layer "+91 (991) 502-1146 info@spineor.com": Expected Either a default asset specification or a layer asset specification but "+" found.
+[5/8/2018, 3:38:13 PM] layer "+91 (991) 502-1146 info@spineor.com": Expected Either a default asset specification or a layer asset specification but "+" found.
