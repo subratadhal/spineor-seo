@@ -4,9 +4,10 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "build": "webpack --progress",
+    "build": "NODE_ENV=production webpack --progress",
     "dev": "npm-run-all --parallel server client",
     "server": "nodemon index.js",
+    "start": "nodemon index.js",
     "client": "webpack --watch --progress",
     "linter": "eslint src",
     "bundlesize": "bundlesize",
